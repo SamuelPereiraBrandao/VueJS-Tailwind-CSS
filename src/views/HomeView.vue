@@ -35,8 +35,12 @@
 
 
 
-       <div class=" h-screen sm:bg-green-400 md:bg-green-600 lg:bg-green-900">
-      <h1 class="text-xl ">Texto escrito</h1>
+       <div class="  h-screen sm:bg-green-400 md:bg-green-600 lg:bg-green-900 flex justify-center">
+        <div class="group w-72  bg-gray-400 rounded m-2">
+      <h1 class="font-bold text-black  p-3 text-xl group-hover:text-green-900 transition-all	hover:underline">Texto escrito</h1>
+      <p class="text-black">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      </div>
+        
     </div>
     </div>
 
