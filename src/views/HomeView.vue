@@ -26,8 +26,8 @@
     <div class="w-24 h-24 p-4 text-white bg-gradient-to-r from-cyan-500 to-blue-500 rounded m-2"><h4 class="hover:text-blue-800">2</h4></div>
     </div> <br> -->
 
-    <div class=" rounded  text-white flex  justify-center flex-col">
-      <div class="flex justify-center w-96  rounded p-2 ">
+    <div class=" dark:bg-green-900 rounded  text-white flex  justify-center flex-col">
+      <div class=" dark:bg-green-900flex justify-center w-96  rounded p-2 ">
       <input type="file" name="file" multiple ref="files" />
       <button @click="sendFile">Send</button>
     </div>
@@ -35,10 +35,15 @@
 
 
 
-       <div class="  h-screen sm:bg-green-400 md:bg-green-600 lg:bg-green-900 flex justify-center">
-        <div class="group w-72  bg-gray-400 rounded m-2">
-      <h1 class="font-bold text-black  p-3 text-xl group-hover:text-green-900 transition-all	hover:underline">Texto escrito</h1>
-      <p class="text-black">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+       <div class=" dark:bg-green-900 h-screen sm:bg-green-400 md:bg-green-600 lg:bg-green-900 flex justify-center">
+        <div class="dark:bg-green-900 group w-72  bg-blue-500 rounded m-2">
+      <h1 class=" dark:bg-green-900font-bold text-corEmp p-3 text-xl group-hover:text-green-500 transition-all	hover:underline">Texto escrito</h1>
+      <p class=" dark:bg-green-800  text-black rounded p-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      <br>
+      <h5 class="text-sm text-green-900">Digite um comentário:</h5>
+      <input type="text" class="bg-gray-100 text-lg  text-black focus hover:ring-2
+      hover:bg-green-100 focus:text-green-700 rounded">
+      <p>Modo Dark baseado no sistema</p>
       </div>
         
     </div>
