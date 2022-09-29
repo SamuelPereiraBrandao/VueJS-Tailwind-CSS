@@ -45,10 +45,32 @@
       hover:bg-green-100 focus:text-green-700 rounded">
       <p>Modo Dark baseado no sistema</p>
       </div>
+        <div class="dark:bg-green-900 group w-72  bg-blue-500 rounded m-2">
+      <h1 class=" dark:bg-green-900font-bold text-corEmp p-3 text-xl group-hover:text-green-500 transition-all	hover:underline">Texto escrito</h1>
+      <p class=" dark:bg-green-800  text-black rounded p-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      <br>
+      <h5 class="text-sm text-green-900">Digite um comentário:</h5>
+      <input type="text" class="bg-gray-100 text-lg  text-black focus hover:ring-2
+      hover:bg-green-100 focus:text-green-700 rounded">
+      <p>Modo Dark baseado no sistema</p>
+      </div>
+        <div class="dark:bg-green-900 group w-72  bg-blue-500 rounded m-2">
+      <h1 class=" dark:bg-green-900font-bold text-corEmp p-3 text-xl group-hover:text-green-500 transition-all	hover:underline">Texto escrito</h1>
+      <p class=" dark:bg-green-800  text-black rounded p-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      <br>
+      <h5 class="text-sm text-green-900">Digite um comentário:</h5>
+      <input type="text" class="bg-gray-100 text-lg  text-black focus hover:ring-2
+      hover:bg-green-100 focus:text-green-700 rounded">
+      <p>Modo Dark baseado no sistema</p>
+      </div>
         
-    </div>
-    </div>
-
+    </div> 
+    <div clas="container mx-auto px-4 py-8 bg-blue-900">
+    <h6 class="gont-bold">Componente Card</h6>
+  </div>
+  </div>
+ 
+      
     
 
   
