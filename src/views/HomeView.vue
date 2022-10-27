@@ -30,6 +30,7 @@
       <div class=" dark:bg-green-900flex justify-center w-96  rounded p-2 ">
       <input type="file" name="file" multiple ref="files" />
       <button @click="sendFile">Send</button>
+      
     </div>
 
 
